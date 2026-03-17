@@ -1,0 +1,134 @@
+16.
+ano = int(input('Digite um ano: '))
+
+if ano % 4 == 0:
+    print('O ano digitado é bissexto!')
+else:
+    print('O ano não é bissexto')
+
+17.
+num = int(input('Digite um número:'))
+
+if num % 3 == 0 and num % 5:
+    print('Seu número é múltiplo de 3 e 5 ao mesmo tempo!')
+else:
+    print('Seu número não é multiplo de 3 e 5 ao mesmo tempo!')
+
+18.
+temp = float(input('Digite a temperatura: '))
+
+if temp < 15:
+    print('Está frio!')
+elif temp >= 15 and temp <= 30:
+    print('Está agradável!')
+else:
+    print('Está quente!')
+
+19.
+num = int(input('Digite um número: '))
+
+if num >10 and num <20:
+    print('Seu número está entre 10 e 20')
+elif num >30 and num <40:
+    print('Seu número está entre 30 e 40')
+else:
+    print('Seu número não está nem entre 10-20, nem entre 30-40!')
+
+20.
+num1 = int(input('Digite o primeiro número: '))
+num2 = int(input('Digite o primeiro número: '))
+num3 = int(input('Digite o primeiro número: '))
+
+if num1 == num2 and num1 == num3:
+    print('Os seus números são iguais')
+else:
+    print('Os seus números são diferentes')
+
+21.
+num = int(input('Digite um número: '))
+
+if num > 50:
+    print('O seu número é maior que 50')
+else:
+    print('O seu número é menor que 50')
+
+22.
+num = int(input('Digite um número: '))
+
+if num > 20 and num < 40:
+    print('Seu número está entre 20 e 40')
+else:
+    print('O seu número não está entre 20 e 40')
+
+23.
+num = int(input('Digite um número: '))
+
+if num % 2 == 0:
+    print('O seu número é múltiplo de 2')
+elif num % 3 == 0:
+    print('O seu número é múltiplo de 3')
+elif num % 2 == 0 and num % 3 == 0:
+    print('O seu número é múltiplo de 2 e 3')
+else:
+    print('O seu número não é multiplo nem de 2 nem de 3')
+
+24.
+idade = int(input('Digite sua idade: '))
+
+if idade >= 18:
+    print('Você pode dar entrada na sua CNH para dirigir')
+else:
+    print('Você não pode dirigir')
+
+25.
+num = int(input('Digite um número: '))
+
+if num > 100 and num < 200:
+    print('O seu número está entre 100 e 200!')
+else:
+    print('O seu número não está entre 100 e 200!')
+
+26.
+num = int(input('Digite um número: '))
+
+if num >= 0:
+    print('O seu número é positivo ou zero!')
+else:
+    print('O seu número é negativo!')
+
+27.
+num = int(input('Digite um número: '))
+
+if num % 7 == 0:
+    print('O seu número é múltiplo de 7!')
+else:
+    print('O seu número não é múltiplo de 7!')
+
+28.
+num1 = int(input('Digite um número: '))
+num2 = int(input('Digite outro número: '))
+
+if num1 == num2:
+    print('Os seus números são iguais!')
+else:
+    print('Os seus números são diferentes!')
+
+29.
+num = int(input('Digite um número: '))
+
+if num > 5 and num < 15:
+    print('O seu número está entre 5 e 15!')
+else:
+    print('O seu número não está entre 5 e 15!')
+
+30.
+num = int(input('Digite um número: '))
+
+if num > 0:
+    print('O seu número é positivo mas não é maior do que 100!')
+elif num > 0 and num > 100:
+    print('O seu número é positivo e maior do que 100')
+elif num == 0:
+    print('O seu número é ZERO')
+else:
+    print('O seu número é negativo!')
