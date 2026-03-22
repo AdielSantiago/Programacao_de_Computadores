@@ -12,4 +12,7 @@ elif num > 0 and num % 2 == 0:
 elif num > 0 and not num % 2 == 0:
     print('O seu número é positivo e é impar')
 
+else:
+    print('Digite um valor válido')
+
 
