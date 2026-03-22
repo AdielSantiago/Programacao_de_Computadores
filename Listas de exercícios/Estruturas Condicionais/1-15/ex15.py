@@ -1,6 +1,15 @@
 num = int(input('Digite um número:'))
 
-if num > 0 and num % 2 == 0:
-    print('O seu número é par')
-else:
-    print('O seu número não é par')
+if num < 0 and num % 2 == 0:
+    print('Seu número é negativo e é par')
+
+elif num < 0 and not num % 2 == 0:
+    print('Seu número é negativo e é impar')
+
+elif num > 0 and num % 2 == 0:
+    print('O seu número é positivo e é par')
+
+elif num > 0 and not num % 2 == 0:
+    print('O seu número é positivo e é impar')
+
+
